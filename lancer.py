@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from keep_alive import keep_alive
 
-BOT_TOKEN = "8104559519:AAFAK8O8PddOuOC6xhewMbVK3q2y47zx2qw"
+BOT_TOKEN = "7863895365:AAHcTzbnpogidcAt6E3-vkzzKkPJEORHogk"
 
 async def lancer_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     args = context.args
